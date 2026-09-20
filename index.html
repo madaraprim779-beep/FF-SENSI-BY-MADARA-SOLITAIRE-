@@ -1,0 +1,184 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070b18">
+  <meta name="description" content="FF SENSI - Générateur de sensibilité Free Fire pour téléphones.">
+  <title>FF SENSI ⚡</title>
+  <link rel="stylesheet" href="style.css">
+</head><body>  <header class="header">
+    <div class="logo">⚡ FF <span>SENSI</span></div><nav>
+  <a href="#generateur">🎯 Sensibilité</a>
+  <a href="#conseils">🧠 Conseils</a>
+</nav>
+
+  </header>  <main><section class="hero">
+  <div class="badge">🎮 FREE FIRE SENSITIVITY</div>
+
+  <h1>
+    Trouve ta <span>sensibilité parfaite</span>
+  </h1>
+
+  <p>
+    Entre simplement le modèle de ton téléphone et génère
+    une configuration adaptée à ton style de jeu.
+  </p>
+
+  <a href="#generateur" class="hero-button">
+    ⚡ COMMENCER
+  </a>
+</section>
+
+
+<section id="generateur" class="generator-section">
+
+  <div class="section-title">
+    <span>🎯</span>
+    <h2>Générateur de sensibilité</h2>
+    <p>Écris le modèle exact de ton téléphone.</p>
+  </div>
+
+  <div class="generator-card">
+
+    <label for="phone">📱 Modèle du téléphone</label>
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="phone"
+        placeholder="Exemple : Samsung A20"
+        autocomplete="off"
+      >
+
+      <button id="generateBtn">
+        ⚡ GÉNÉRER
+      </button>
+    </div>
+
+    <div id="phoneSuggestions" class="suggestions"></div>
+
+  </div>
+
+  <div id="result" class="result hidden">
+
+    <div class="result-header">
+      <div>
+        <small>CONFIGURATION GÉNÉRÉE</small>
+        <h2 id="phoneName">Samsung A20</h2>
+      </div>
+
+      <div class="profile-badge">
+        🎯 HEADSHOT
+      </div>
+    </div>
+
+    <div class="sensitivity-grid">
+
+      <div class="sensi-card">
+        <span>🎯 Général</span>
+        <strong id="general">--</strong>
+      </div>
+
+      <div class="sensi-card">
+        <span>🔴 Point rouge</span>
+        <strong id="redDot">--</strong>
+      </div>
+
+      <div class="sensi-card">
+        <span>🔍 2×</span>
+        <strong id="scope2x">--</strong>
+      </div>
+
+      <div class="sensi-card">
+        <span>🔭 4×</span>
+        <strong id="scope4x">--</strong>
+      </div>
+
+      <div class="sensi-card">
+        <span>🎯 AWM</span>
+        <strong id="awm">--</strong>
+      </div>
+
+      <div class="sensi-card">
+        <span>👁️ Vue libre</span>
+        <strong id="freeLook">--</strong>
+      </div>
+
+    </div>
+
+    <div class="result-actions">
+      <button id="regenerateBtn">🔄 Nouvelle configuration</button>
+    </div>
+
+    <p class="notice">
+      💡 Ces réglages sont un point de départ. Ajuste-les progressivement
+      selon ton appareil et tes sensations en jeu.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section id="conseils" class="tips-section">
+
+  <div class="section-title">
+    <span>🧠</span>
+    <h2>Conseils Free Fire</h2>
+    <p>Choisis le conseil que tu veux apprendre.</p>
+  </div>
+
+  <div class="tips-grid">
+
+    <article class="tip-card">
+      <div>🎯</div>
+      <h3>Headshot</h3>
+      <p>Comprendre les bases pour améliorer la précision de tes tirs.</p>
+      <button>Lire le conseil →</button>
+    </article>
+
+    <article class="tip-card">
+      <div>🔥</div>
+      <h3>Drag Shot</h3>
+      <p>Découvre les principes du déplacement du viseur pendant le tir.</p>
+      <button>Lire le conseil →</button>
+    </article>
+
+    <article class="tip-card">
+      <div>🧱</div>
+      <h3>Gloo Wall</h3>
+      <p>Apprends à utiliser efficacement les murs pendant les combats.</p>
+      <button>Lire le conseil →</button>
+    </article>
+
+    <article class="tip-card">
+      <div>🖐️</div>
+      <h3>HUD</h3>
+      <p>Découvre les différences entre les configurations 2, 3 et 4 doigts.</p>
+      <button>Lire le conseil →</button>
+    </article>
+
+    <article class="tip-card">
+      <div>🏃</div>
+      <h3>Mouvement</h3>
+      <p>Travaille tes déplacements et ton positionnement en combat.</p>
+      <button>Lire le conseil →</button>
+    </article>
+
+    <article class="tip-card">
+      <div>📈</div>
+      <h3>Entraînement</h3>
+      <p>Des exercices pour progresser régulièrement.</p>
+      <button>Lire le conseil →</button>
+    </article>
+
+  </div>
+
+</section>
+
+  </main>  <footer>
+    <div class="logo">⚡ FF <span>SENSI</span></div>
+    <p>Ton assistant de réglages Free Fire.</p>
+    <p class="copyright">© 2026 FF SENSI</p>
+  </footer>  <script src="script.js"></script></body>
+</html>
